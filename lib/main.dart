@@ -43,11 +43,11 @@ class _VntHomePageState extends State<VntHomePage> {
     final config = NetworkConfig(
       itemKey: networkCode,
       configName: '默认配置',
-      token: 'test-token',
+      token: 'uuu',
       deviceID: 'device-id',
       deviceName: 'device-name',
       virtualIPv4: '',
-      serverAddress: 'example.com:3000',
+      serverAddress: 'vnt.wherewego.top:29872',
       stunServers: [],
       inIps: [],
       outIps: [],
@@ -66,7 +66,7 @@ class _VntHomePageState extends State<VntHomePage> {
       simulatedPacketLossRate: 0.0,
       simulatedLatency: 0,
       punchModel: 'ipv4',
-      useChannelType: 'p2p', // ✅ 修正：合法值 relay/p2p/all
+      useChannelType: 'p2p', 
       compressor: 'none',
     );
 
